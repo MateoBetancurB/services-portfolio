@@ -1,0 +1,18 @@
+:root {
+    --black: #020202;
+    --green: #226F54;
+    --blue1: #0D324D;
+    --blue2: #74b3ce;
+    --white: #ffffff;
+}
+
+body {
+    background-color: var(--blue1);
+    color: var(--white);
+}
+
+.container .size {
+    width: 300px;
+    height: 300px;
+    border-radius: 400px;
+}
