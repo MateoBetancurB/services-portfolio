@@ -7,6 +7,13 @@
 }
 
 body {
+    font-family: sans-serif;
+}
+
+
+/* comienzo-header */
+
+header {
     background-color: var(--blue1);
     color: var(--white);
 }
@@ -16,3 +23,16 @@ body {
     height: 300px;
     border-radius: 400px;
 }
+
+
+/* fin-header */
+
+
+/* comienzo-section-skills */
+
+.section-skills {
+    background-color: var(--blue2);
+}
+
+
+/* fin-section-skills */
