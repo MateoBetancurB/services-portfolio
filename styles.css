@@ -18,6 +18,16 @@ header {
     color: var(--white);
 }
 
+.icons a i {
+    color: var(--white);
+    padding-left: 10px;
+}
+
+.icons a i:hover {
+    transform: scale(1.3);
+    transition: 300ms;
+}
+
 .container .size {
     width: 300px;
     height: 300px;
