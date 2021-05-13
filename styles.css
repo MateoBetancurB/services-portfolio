@@ -44,5 +44,9 @@ header {
     background-color: var(--blue2);
 }
 
+.section-skills .grande {
+    /* font-size: 2rem; */
+}
+
 
 /* fin-section-skills */
