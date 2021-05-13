@@ -6,8 +6,10 @@
     --white: #ffffff;
 }
 
-body {
+body,
+.size-letter {
     font-family: sans-serif;
+    font-size: 1rem;
 }
 
 
@@ -69,6 +71,14 @@ header {
 
 
 /* comienzo section-experiencia */
+
+.background-experience {
+    background-color: var(--blue2);
+}
+
+.background-experience .negative-margin {
+    margin-top: -30px;
+}
 
 
 /* fin section-experiencia */
