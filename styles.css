@@ -20,7 +20,7 @@ header {
 
 .icons a i {
     color: var(--white);
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 .icons a i:hover {
@@ -58,6 +58,10 @@ header {
 .line-bottom {
     border-bottom: 2px solid black;
     margin-bottom: 48px;
+}
+
+.progress {
+    height: 2rem;
 }
 
 
