@@ -38,15 +38,33 @@ header {
 /* fin-header */
 
 
+/* "width: 18rem" */
+
+
 /* comienzo-section-skills */
 
 .section-skills {
     background-color: var(--blue2);
 }
 
-.section-skills .grande {
-    /* font-size: 2rem; */
+.card {
+    border-radius: 20px 20px 0 0;
+}
+
+.card .background {
+    background-color: var(--blue1);
+}
+
+.line-bottom {
+    border-bottom: 2px solid black;
+    margin-bottom: 48px;
 }
 
 
 /* fin-section-skills */
+
+
+/* comienzo section-experiencia */
+
+
+/* fin section-experiencia */
