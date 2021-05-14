@@ -84,13 +84,27 @@ header {
 /* fin section-experiencia */
 
 
-/* <div class="row">
-<div class="col-md-4">
-    <div class="card">
-        <div class="card-body" style="box-shadow: 4px 5px 5px rgb(105, 102, 102);">
-            <h5 class="card-title">Tecnologías Frontend</h5>
-            <p class="card-text">HTML5 - CSS3 - Javascript - Bootstrap - Sass</p>
-        </div>
-    </div>
-</div>
-</div> */
+/* inicio footer */
+
+.footer-background {
+    background-color: var(--blue1);
+}
+
+.alto {
+    height: 60px;
+}
+
+.vertical-text a {
+    color: white;
+}
+
+.vertical-text a:hover {
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.vertical-text {
+    line-height: 60px;
+}
+
+
+/* fin footer */
