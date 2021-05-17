@@ -8,7 +8,7 @@
 
 body,
 .size-letter {
-    font-family: sans-serif;
+    font-family: 'Fira Code', monospace, sans-serif;
     font-size: 1rem;
 }
 
@@ -22,7 +22,6 @@ header {
 
 .icons a i {
     color: var(--white);
-    /* padding-left: 10px; */
 }
 
 .icons a i:hover {
@@ -91,7 +90,7 @@ header {
 }
 
 .alto {
-    height: 60px;
+    height: 70px;
 }
 
 .vertical-text a {
@@ -103,7 +102,7 @@ header {
 }
 
 .vertical-text {
-    line-height: 60px;
+    line-height: 70px;
 }
 
 
