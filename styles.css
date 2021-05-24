@@ -3,6 +3,7 @@
     --green: #226F54;
     --blue1: #0D324D;
     --blue2: #74b3ce;
+    --blue3: #214761;
     --white: #ffffff;
 }
 
@@ -39,17 +40,16 @@ header {
 /* fin-header */
 
 
-/* "width: 18rem" */
-
-
 /* comienzo-section-skills */
 
 .section-skills {
-    background-color: var(--blue2);
+    background-color: var(--blue3);
+    color: var(--white);
 }
 
 .card {
     border-radius: 20px 20px 0 0;
+    color: var(--black);
 }
 
 .card .background {
@@ -57,7 +57,7 @@ header {
 }
 
 .line-bottom {
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid white;
     margin-bottom: 48px;
 }
 
@@ -72,18 +72,70 @@ header {
 /* comienzo section-experiencia */
 
 .background-experience {
-    background-color: var(--blue2);
+    background-color: var(--blue3);
+    color: var(--white);
 }
 
 .background-experience .negative-margin {
     margin-top: -30px;
 }
 
+.border-bottom1 {
+    border-bottom: 3px solid white;
+    margin-bottom: 48px;
+}
+
 
 /* fin section-experiencia */
 
 
+/* inicio form */
+
+
+/* .form {
+    background-color: var(--blue1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form .form-label {
+    color: var(--white);
+    font-weight: bold;
+}
+
+.form .form-control {
+    border-radius: 15px;
+    padding-left: 25px;
+}
+
+.form .textarea {
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.form .form-button {
+    color: var(--white);
+    font-weight: bold;
+    background-color: var(--blue3);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.form .form-button:hover {
+    background-color: var(--blue3);
+    transform: scale(1.1);
+    transition: 300ms;
+} */
+
+
+/* fin form */
+
+
 /* inicio footer */
+
+.border-footer {
+    /* border-top: 1px solid black; */
+}
 
 .footer-background {
     background-color: var(--blue1);
