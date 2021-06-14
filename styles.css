@@ -47,24 +47,6 @@ header {
     color: var(--white);
 }
 
-.card {
-    border-radius: 20px 20px 0 0;
-    color: var(--black);
-}
-
-.card .background {
-    background-color: var(--blue1);
-}
-
-.line-bottom {
-    border-bottom: 3px solid white;
-    margin-bottom: 48px;
-}
-
-.progress {
-    height: 2rem;
-}
-
 
 /* fin-section-skills */
 
@@ -83,6 +65,47 @@ header {
 .border-bottom1 {
     border-bottom: 3px solid white;
     margin-bottom: 48px;
+}
+
+.section__skills {
+    display: flex;
+    justify-content: center;
+}
+
+.skills {
+    border-radius: 15px;
+    height: 10rem;
+    width: 11rem;
+    background-color: var(--blue1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.skills__h3 {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 20px;
+}
+
+.skills__h-3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    background-color: var(--blue3);
+}
+
+.experience-title {
+    margin-top: 1rem;
+    border-top: 3px solid #fff;
+    padding-top: 4rem;
 }
 
 
