@@ -1,7 +1,7 @@
 :root {
     --black: #020202;
-    --green: #226F54;
-    --blue1: #0D324D;
+    --green: #226f54;
+    --blue1: #0d324d;
     --blue2: #74b3ce;
     --blue3: #214761;
     --white: #ffffff;
@@ -9,7 +9,8 @@
 
 body,
 .size-letter {
-    font-family: 'Fira Code', monospace, sans-serif;
+    overflow-x: hidden;
+    font-family: "Fira Code", monospace, sans-serif;
     font-size: 1rem;
 }
 
