@@ -86,21 +86,15 @@ header {
     padding-top: 45px;
     padding-bottom: 45px;
     font-size: 20px;
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 .skills__h-3 {
     font-size: 20px;
     text-align: center;
-    padding-top: 45px;
-    padding-bottom: 20px;
-}
-
-.progress {
-    height: 25px;
-}
-
-.progress-bar {
-    background-color: var(--blue3);
+    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .experience-title {
