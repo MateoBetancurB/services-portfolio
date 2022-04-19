@@ -1,2 +1,4 @@
 # services-portfolio
-project with my professional skills and my services portfolio
+personal portfolio
+
+url del proyecto: https://mateobetancur.netlify.app
